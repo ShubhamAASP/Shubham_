@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Shubham Patil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav>
+            <h1>Shubham Patil<span class="emoji" data-tooltip="AI & ML Engineer">🤖</span></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects-section">
+        <h2>My Projects <span class="emoji" data-tooltip="Featured Work">🚀</span></h2>
+        
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="tools">Tools & Utilities</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- ML Projects -->
+            <div class="project-card" data-category="ml">
+                <div class="project-icon"><i class="fas fa-lungs"></i></div>
+                <h3>Lung Cancer Detection System</h3>
+                <p>AI-powered system using CNN with TensorFlow and Keras for real-time lung cancer detection. Features confidence scores and downloadable health reports.</p>
+                <div class="project-tags">
+                    <span>Deep Learning</span>
+                    <span>CNN</span>
+                    <span>TensorFlow</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://shubhamaasp.github.io/AI_Lungs_Cancer_Detection/" target="_blank" class="btn small">View on GitHub</a>
+                    <a href="#" class="btn small secondary">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="ml">
+                <div class="project-icon"><i class="fas fa-utensils"></i></div>
+                <h3>Recipe Generator</h3>
+                <p>GPT-2 powered system that generates creative recipes based on user-input ingredients, improving upon LSTM limitations with better contextual understanding.</p>
+                <div class="project-tags">
+                    <span>NLP</span>
+                    <span>GPT-2</span>
+                    <span>Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://shubhamaasp.github.io/Ingredients_Based_Recipe_Generator/" target="_blank" class="btn small">View on GitHub</a>
+                    <a href="#" class="btn small secondary">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Web Development Projects -->
+            <div class="project-card" data-category="web">
+                <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Phishing Email Detection</h3>
+                <p>Machine learning-based Flask web app that classifies emails as phishing or safe using content and metadata analysis. Features clean UI and animations.</p>
+                <div class="project-tags">
+                    <span>ML</span>
+                    <span>Flask</span>
+                    <span>Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://shubhamaasp.github.io/Phishing_mail_detection/" target="_blank" class="btn small">View on GitHub</a>
+                    <a href="#" class="btn small secondary">Live Demo</a>
+                </div>
+            </div>
+
+            <!-- Tools & Utilities -->
+            <div class="project-card" data-category="tools">
+                <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                <h3>Amazon Web Scraper</h3>
+                <p>Developed a tool using Selenium and BeautifulSoup to scrape and organize product data from Amazon Bestsellers across categories into CSV files.</p>
+                <div class="project-tags">
+                    <span>Selenium</span>
+                    <span>BeautifulSoup</span>
+                    <span>Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://shubhamaasp.github.io/AMAZON_WEB_SCRAPING/" target="_blank" class="btn small">View on GitHub</a>
+                    <a href="#" class="btn small secondary">Documentation</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-cta">
+            <a href="contact.html" class="btn primary">Let's Work Together</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://shubhamaasp.github.io/Shubham_/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:shubhamp1341@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+919321664619"><i class="fas fa-phone"></i></a>
+            </div>
+            <p>&copy; 2024 Shubham Patil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
