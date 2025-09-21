@@ -100,6 +100,7 @@ export default function ContactSection() {
         projectType: ''
       })
     } catch (error) {
+      console.error('Form submission error:', error)
       setSubmitStatus('error')
     } finally {
       setIsSubmitting(false)

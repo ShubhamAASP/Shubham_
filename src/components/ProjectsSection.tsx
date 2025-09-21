@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { ExternalLinkIcon, GithubIcon, PlayIcon } from 'lucide-react'
-import Image from 'next/image'
 
 const projects = [
   {
@@ -102,8 +101,6 @@ const projects = [
     status: 'Completed'
   }
 ]
-
-const categories = ['All', 'AI Application', 'Computer Vision', 'NLP', 'Data Science', 'Generative AI', 'Machine Learning']
 
 export default function ProjectsSection() {
   return (

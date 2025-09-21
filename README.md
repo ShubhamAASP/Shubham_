@@ -70,7 +70,24 @@
 
 ## 📦 Deployment
 
-### Deploy to Vercel (Recommended)
+### Automatic GitHub Pages Deployment
+
+This repository is configured with GitHub Actions for automatic deployment to GitHub Pages:
+
+1. **Automatic deployment**: Every push to the `main` branch automatically builds and deploys the site
+2. **Live URL**: Visit your portfolio at `https://shubhamaasp.github.io/Shubham_/`
+3. **Build status**: Check the Actions tab in your GitHub repository for deployment status
+
+### Manual GitHub Pages Setup
+
+If you need to configure GitHub Pages manually:
+
+1. Go to your repository settings
+2. Navigate to "Pages" section
+3. Select "GitHub Actions" as the source
+4. The workflow will automatically deploy your Next.js site
+
+### Deploy to Vercel (Alternative)
 
 1. **Push to GitHub** (already done)
 2. **Connect to Vercel**:
@@ -78,15 +95,22 @@
    - Import your GitHub repository
    - Vercel will automatically detect Next.js and deploy
 
-### Deploy to Netlify
+### Deploy to Netlify (Alternative)
 
 1. **Build the project**
    ```bash
    npm run build
-   npm run export
    ```
 
 2. **Deploy the `out` folder to Netlify**
+
+### Local Build for Testing
+
+```bash
+npm run build
+```
+
+This creates an `out` folder with the static export that can be served by any static hosting service.
 
 ## 📁 Project Structure
 

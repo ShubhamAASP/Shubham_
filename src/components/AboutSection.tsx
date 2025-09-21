@@ -122,7 +122,7 @@ export default function AboutSection() {
               viewport={{ once: true }}
               className="text-lg text-gray-300 leading-relaxed mb-6"
             >
-              I'm a passionate AI & Machine Learning Engineer currently pursuing Computer Engineering 
+              I&apos;m a passionate AI & Machine Learning Engineer currently pursuing Computer Engineering 
               at Shivajirao S. Jondhale College of Engineering, Dombivali (2022-2026). With 3+ years 
               of experience in the field, I specialize in developing intelligent solutions using 
               cutting-edge technologies.
@@ -136,9 +136,9 @@ export default function AboutSection() {
               className="text-lg text-gray-300 leading-relaxed mb-8"
             >
               My expertise spans Deep Learning, Computer Vision, and Natural Language Processing. 
-              I've successfully developed and deployed multiple AI systems including lung cancer 
+              I&apos;ve successfully developed and deployed multiple AI systems including lung cancer 
               detection systems, recipe generators, and phishing email detection tools. Currently, 
-              I'm working on innovative projects that bridge the gap between AI research and 
+              I&apos;m working on innovative projects that bridge the gap between AI research and 
               real-world applications.
             </motion.p>
 
@@ -181,7 +181,7 @@ export default function AboutSection() {
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
               >
-                Let's Work Together
+                Let&apos;s Work Together
               </motion.button>
               <motion.a
                 href="https://github.com/ShubhamAASP"

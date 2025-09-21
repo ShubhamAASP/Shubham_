@@ -51,7 +51,7 @@ export default function HeroSection() {
               transition={{ delay: 0.2 }}
               className="mb-6"
             >
-              <span className="text-lg text-gray-400 font-medium">Hello, I'm</span>
+              <span className="text-lg text-gray-400 font-medium">Hello, I&apos;m</span>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-2">
                 <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-green-500 bg-clip-text text-transparent">
                   Shubham Patil
