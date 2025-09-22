@@ -33,7 +33,7 @@ const services = [
 const socialLinks = [
   {
     icon: LinkedinIcon,
-    href: 'https://linkedin.com/in/shubham-patil',
+    href: 'https://www.linkedin.com/in/shubham-patil-3a9a692b1/',
     label: 'LinkedIn'
   },
   {

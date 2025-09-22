@@ -48,7 +48,7 @@ const socialLinks = [
   {
     icon: LinkedinIcon,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/shubham-patil',
+    href: 'https://www.linkedin.com/in/shubham-patil-3a9a692b1/',
     color: 'hover:text-blue-400'
   },
   {
